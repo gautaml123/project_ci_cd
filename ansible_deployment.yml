@@ -7,5 +7,5 @@
   gather_facts: no
   tasks:
     - name: Deploy deployment and service in k8s cluster
-      shell: "kubectl create -f deployment_service.yml"
+      shell: "kubectl apply -f deployment_service.yml"
 
